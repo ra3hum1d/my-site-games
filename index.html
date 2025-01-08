@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новини ігор 2024-2025</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="./style.css">
+<body>
+    <!-- Шапка сайту -->
+    <header class="site-header">
+        <div class="logo">
+            <h1>Новини Ігор 2024-2025</h1>
+        </div>
+        <nav class="main-nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a class="nav-link" href="#home">Головна</a></li>
+                <li class="nav-item"><a class="nav-link" href="#news">Новини</a></li>
+                <li class="nav-item"><a class="nav-link" href="#reviews">Огляди</a></li>
+                <li class="nav-item"><a class="nav-link" href="#events">Події</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Основний вміст -->
+    <main class="main-content">
+        <section id="home" class="hero-section">
+            <h2 class="hero-title">Найгарячіші новини про ігри 2024-2025 року</h2>
+            <p class="hero-description">Останні новини, огляди та анонси ігор на ринку відеоігор 2024-2025 років!</p>
+        </section>
+
+        <section id="news" class="news-section">
+            <h2 class="section-title">Останні новини</h2>
+            <div class="news-list">
+                <article class="news-item" id="newsItem1">
+                    <h3 class="news-item-title"><a class="news-item-link" href="javascript:;" onclick="openModal('Вихід нової -witcher 4- 2025 року: майбутнє ігрової індустрії',)">Вихід нової гри 2025 року: майбутнє ігрової індустрії</a></h3>
+                    <p class="news-item-description">Відомі розробники анонсували гру, яка обіцяє стати революційною для ігрової індустрії. Дізнайтесь більше!</p>
+                    <p><a class="news-item-read-more" href="javascript:;" onclick="openModal('Вихід нової гри 2025 року: майбутнє ігрової індустрії', 'Відомі розробники анонсували гру, яка обіцяє стати революційною для ігрової індустрії. Дізнайтесь більше!')">Читати далі...</a></p>
+                </article>
+
+                <div id="modal" class="modal">
+                    <div class="modal-content">
+                        <span class="close-btn" id="closeBtn">&times;</span>
+                        <h2 class="modal-title">The Witcher IV</h2>
+                        <img src="https://assetsio.gnwcdn.com/co4krq.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp" alt="" class="modal-img">
+                        <p id="modalText" href="javascript:;" onclick="openModal('На церемонії The Game Awards 2024 компанія CD Projekt Red офіційно анонсувала гру «The Witcher 4», представивши кінематографічний трейлер, у якому головною героїнею виступає Цірі, прийомна донька Ґеральта з Рівії')"></p>
+                    </div>
+                </div>
+
+                <article class="news-item-1">
+                    <h3 class="news-item-title"><a class="news-item-link" href="#news2">хочеш підписатись на розсилку?</a></h3>
+                    <form id="emailForm" class="email-form">
+                        <label for="email" class="email-label">Електронна пошта:</label><br>
+                        <textarea id="email" name="email" class="email-input" placeholder="Введіть вашу електронну пошту"></textarea><br><br>
+                        <button type="submit" class="submit-button">Надіслати</button>
+                    </form>
+                
+                    <p id="thankYouMessage">Дякуємо за участь!</p>
+                    <p id="errorMessage" class="error-message">Ти неправильно вписав пошту</p>
+                
+                </article>
+
+
+                <div class="searching">
+                    <h1 class="search-title">search game:</h1>
+                <form action="">
+                    <textarea name="" id="" class="search-area"></textarea>
+                </form>
+                </div>
+                
+
+                
+    </main>
+
+    <!-- Футер сайту -->
+    <footer class="site-footer">
+        <p class="footer-text">© 2025 Новини Ігор. Усі права захищені.</p>
+        <div class="social-media">
+            <a class="social-link" href="#">Facebook</a>
+            <a class="social-link" href="#">Twitter</a>
+            <a class="social-link" href="#">Instagram</a>
+        </div>
+    </footer>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
