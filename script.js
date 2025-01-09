@@ -95,6 +95,8 @@ images.forEach(({ src, title }) => {
 });
 const filterGallery = () => {
 const filterText = document.getElementById('filter').value.toLowerCase();
+
+
 figures.forEach(({ figure, title }) => {
 if (title.toLowerCase().includes(filterText)) {
   figure.style.display = 'block';
@@ -103,3 +105,9 @@ if (title.toLowerCase().includes(filterText)) {
 };
 document.getElementById('filter').addEventListener('input', filterGallery);
 
+
+
+/*очищення форми*/
+
+function clearTextarea() {
+  document.getElementById("emailcc").value = ""; }
