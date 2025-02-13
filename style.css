@@ -581,3 +581,106 @@ ul {
       .submit-btn:hover {
         background-color: #45a049; /* Трохи темніший зелений при наведенні */
       }
+
+
+
+
+      @media screen and (max-width: 768px) {
+        body {
+            background-size: cover;
+            background-position: center;
+        }
+    
+        .background-left {
+            display: none;
+        }
+    
+        .site-header {
+            flex-direction: column;
+            text-align: center;
+            padding: 15px;
+        }
+    
+        .nav-list {
+            flex-direction: column;
+            gap: 10px;
+        }
+    
+        .main-content {
+            padding: 10px;
+        }
+    
+        .hero-title {
+            font-size: 1.8rem;
+        }
+    
+        .hero-description {
+            font-size: 1rem;
+        }
+    
+        .news-list {
+            gap: 10px;
+        }
+    
+        .news-item, .news-item-1 {
+            margin: 10px auto;
+            width: 100%;
+            padding: 15px;
+        }
+    
+        .email-form {
+            width: 90%;
+            margin: 0 auto;
+        }
+    
+        .searching {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    
+        .search-title {
+            margin: 0;
+        }
+    
+        .filter-area {
+            width: 100%;
+            max-width: 300px;
+        }
+    
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    
+        .comments-section {
+            padding: 10px;
+        }
+    
+        .comment {
+            width: 100%;
+            padding: 10px;
+        }
+    
+        .modal-content {
+            width: 90%;
+            padding: 15px;
+        }
+    
+        .modal-img {
+            width: 100%;
+            height: auto;
+        }
+    
+        .close-btn {
+            margin-left: auto;
+            font-size: 24px;
+        }
+    
+        .site-footer {
+            text-align: center;
+            padding: 10px;
+        }
+    }
+    
